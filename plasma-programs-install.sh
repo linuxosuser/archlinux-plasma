@@ -53,7 +53,6 @@ sudo pacman -S --needed stress --noconfirm
 sudo pacman -S --needed glmark2 --noconfirm
 sudo pacman -S --needed kcalc --noconfirm
 sudo pacman -S --needed partitionmanager --noconfirm
-sudo pacman -S --needed ksysguard --noconfirm
 sudo pacman -S --needed spectacle --noconfirm
 sudo pacman -S --needed korganizer --noconfirm
 sudo pacman -S --needed kate --noconfirm
