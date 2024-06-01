@@ -1,7 +1,0 @@
-#!/bin/bash
-
-for pkg in kpipewire libpipewire libwireplumber pipewire pipewire-alsa pipewire-audio pipewire-jack pipewire-pulse pipewire-roc pipewire-session-manager pipewire-v4l2 pipewire-zeroconf wireplumber gst-plugin-pipewire lib32-libpipewire lib32-pipewire lib32-pipewire-jack lib32-pipewire-v4l2 alsa-plugins lib32-alsa-plugins alsa-lib lib32-alsa-lib alsa-firmware gst-plugins-good lib32-gst-plugins-good gst-plugins-bad gst-plugins-base gst-plugins-base-libs lib32-gst-plugins-base lib32-gst-plugins-base-libs gst-plugins-ugly gstreamer lib32-gstreamer gstreamer-vaapi libdvdcss firefox firefox-i18n-hu firefox-ublock-origin chromium ktorrent elisa smplayer kamoso okular gwenview gimp gimp-help-hu lm_sensors psensor stress glmark2 kcalc partitionmanager spectacle korganizer kate filelight kfind kdeconnect khelpcenter kwalletmanager kaccounts-providers jre8-openjdk jdk8-openjdk p7zip unace unrar zip unzip sharutils uudeview arj cabextract ark x264 openh264 audiocd-kio kdesdk-kio kio-admin kio-extras kio-fuse kio-gdrive kio-zeroconf fuse dmidecode mesa-utils lib32-mesa-utils inxi cups cups-pdf ghostscript gsfonts gutenprint gtk3-print-backends libcups system-config-printer print-manager skanlite avahi nss-mdns bluez bluez-libs bluez-utils ufw ufw-extras gufw adobe-source-sans-fonts cantarell-fonts noto-fonts ttf-bitstream-vera ttf-dejavu ttf-droid ttf-hack ttf-inconsolata ttf-liberation ttf-roboto ttf-ubuntu-font-family archlinux-wallpaper; do
-  if pkgfile -s -r "$pkg" | grep -q "kko5"; then
-    echo "$pkg függ a kko5 csomagtól."
-  fi
-done
