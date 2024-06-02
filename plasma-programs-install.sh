@@ -44,7 +44,6 @@ sudo pacman -S --needed elisa --noconfirm
 sudo pacman -S --needed smplayer --noconfirm
 sudo pacman -S --needed okular --noconfirm
 sudo pacman -S --needed gwenview --noconfirm
-sudo pacman -S --needed digikam --noconfirm
 sudo pacman -S --needed lm_sensors --noconfirm
 sudo pacman -S --needed psensor --noconfirm
 sudo pacman -S --needed stress --noconfirm
